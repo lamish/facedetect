@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facedetect.iml" filepath="$PROJECT_DIR$/facedetect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary401/openCVLibrary401.iml" filepath="$PROJECT_DIR$/openCVLibrary401/openCVLibrary401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary401_org/openCVLibrary401_org.iml" filepath="$PROJECT_DIR$/openCVLibrary401_org/openCVLibrary401_org.iml" />
+    </modules>
+  </component>
+</project>

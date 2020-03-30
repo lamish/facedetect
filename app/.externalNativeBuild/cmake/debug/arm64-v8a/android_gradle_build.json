@@ -1,0 +1,227 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/xiaojuan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"facedetection-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "facedetection",
+			"buildCommand" : "/home/xiaojuan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a --target facedetection",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-floatdata.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-int8data.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-jni.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-model.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a/libfacedetection.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"facedetection_shared-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "facedetection_shared",
+			"buildCommand" : "/home/xiaojuan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a --target facedetection_shared",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-floatdata.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-int8data.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-jni.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-model.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -fno-experimental-isel  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfacedetection.so",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_calib3d-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_calib3d",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_calib3d.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_core-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_core",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_core.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_dnn-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_dnn",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_dnn.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_features2d-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_features2d",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_features2d.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_flann-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_flann",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_flann.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_highgui-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_highgui",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_highgui.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_imgcodecs-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_imgcodecs",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_imgcodecs.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_imgproc-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_imgproc",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_imgproc.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_java4-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_java4",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_java4.so",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_ml-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_ml",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_ml.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_objdetect-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_objdetect",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_objdetect.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_photo-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_photo",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_photo.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_stitching-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_stitching",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_stitching.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_video-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_video",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_video.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_videoio-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libopencv_videoio",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/arm64-v8a/libopencv_videoio.a",
+			"toolchain" : "2986220173898140748"
+		}
+	},
+	"toolchains" : 
+	{
+		"2986220173898140748" : 
+		{
+			"cCompilerExecutable" : "/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,4 @@
+/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/facedetection_shared.dir
+/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/facedetection.dir

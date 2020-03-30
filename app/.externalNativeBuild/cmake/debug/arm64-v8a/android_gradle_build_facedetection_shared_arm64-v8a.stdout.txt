@@ -1,0 +1,12 @@
+[1/12] Building CXX object CMakeFiles/facedetection.dir/facedetectcnn-floatdata.cpp.o
+[2/12] Building CXX object CMakeFiles/facedetection.dir/facedetectcnn-int8data.cpp.o
+[3/12] Building CXX object CMakeFiles/facedetection.dir/facedetectcnn-jni.cpp.o
+[4/12] Building CXX object CMakeFiles/facedetection.dir/facedetectcnn-model.cpp.o
+[5/12] Building CXX object CMakeFiles/facedetection.dir/facedetectcnn.cpp.o
+[6/12] Linking CXX static library libfacedetection.a
+[7/12] Building CXX object CMakeFiles/facedetection_shared.dir/facedetectcnn-floatdata.cpp.o
+[8/12] Building CXX object CMakeFiles/facedetection_shared.dir/facedetectcnn-int8data.cpp.o
+[9/12] Building CXX object CMakeFiles/facedetection_shared.dir/facedetectcnn-jni.cpp.o
+[10/12] Building CXX object CMakeFiles/facedetection_shared.dir/facedetectcnn-model.cpp.o
+[11/12] Building CXX object CMakeFiles/facedetection_shared.dir/facedetectcnn.cpp.o
+[12/12] Linking CXX shared library /home/xiaojuan/mount/android_projects/facedetect/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfacedetection.so

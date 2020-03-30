@@ -1,0 +1,227 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/xiaojuan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"facedetection-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "facedetection",
+			"buildCommand" : "/home/xiaojuan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target facedetection",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-floatdata.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-int8data.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-jni.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-model.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libfacedetection.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"facedetection_shared-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "facedetection_shared",
+			"buildCommand" : "/home/xiaojuan/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target facedetection_shared",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-floatdata.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-int8data.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-jni.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn-model.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -D_ENABLE_INT8 -D_ENABLE_NEON -D_OPENMP -Dfacedetection_shared_EXPORTS -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp -I/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/opencv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -O3 -std=c++11  -c ",
+					"src" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/facedetectcnn.cpp",
+					"workingDirectory" : "/home/xiaojuan/mount/android_projects/facedetect/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libfacedetection.so",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_calib3d-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_calib3d",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_calib3d.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_core-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_core",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_core.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_dnn-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_dnn",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_dnn.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_features2d-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_features2d",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_features2d.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_flann-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_flann",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_flann.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_highgui-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_highgui",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_highgui.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_imgcodecs-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_imgcodecs",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_imgcodecs.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_imgproc-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_imgproc",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_imgproc.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_java4-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_java4",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_java4.so",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_ml-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_ml",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_ml.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_objdetect-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_objdetect",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_objdetect.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_photo-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_photo",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_photo.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_stitching-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_stitching",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_stitching.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_video-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_video",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_video.a",
+			"toolchain" : "2986220173898140748"
+		},
+		"libopencv_videoio-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_videoio",
+			"buildType" : "debug",
+			"output" : "/home/xiaojuan/mount/android_projects/facedetect/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_videoio.a",
+			"toolchain" : "2986220173898140748"
+		}
+	},
+	"toolchains" : 
+	{
+		"2986220173898140748" : 
+		{
+			"cCompilerExecutable" : "/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/xiaojuan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
